@@ -12,12 +12,12 @@ public class StringMethodsTest {
     @Test
     public void getUpperString(){
         String output =obj.getUpperString();
-        String expected="ANU";
+        String expected="ANU BOWTHI";
         assertEquals(expected,output);
     }
     public void getLowerString(){
         String output =obj.getLowerString();
-        String expected="anu";
+        String expected="anu bowthi";
         assertEquals(expected,output);
     }
 
